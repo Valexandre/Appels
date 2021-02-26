@@ -2,11 +2,13 @@ Packages <- c("tidyverse", "readr", "readxl", "sf",
               "cowplot", "RColorBrewer", "lubridate",
               "data.table","datapasta","devtools","forcats",
               "geofacet","gghighlight","janitor","hexbin",
-              "rmapshaper","scales","svglite","extrafont")
+              "rmapshaper","scales","svglite","extrafont","slider")
 library(devout)
 extrafont::loadfonts()
 #font_import()
 lapply(Packages, library, character.only = TRUE)
+`%!in%` = function(x,y) !(x %in% y)
+Majuscule = function(x) (paste0(toupper(substr(x, 1, 1)), substr(x, 2, nchar(x))))
 communes<-function(){
   Communes<-st_read("C:/Users/valexandre/Downloads/ADMIN-EXPRESS_2-4__SHP__FRA_WM_2021-01-15/ADMIN-EXPRESS_2-4__SHP__FRA_2021-01-15/ADMIN-EXPRESS/1_DONNEES_LIVRAISON_2021-01-15/ADE_2-4_SHP_WGS84G_FRA/COMMUNE.shp")
 }
