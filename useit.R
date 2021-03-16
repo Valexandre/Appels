@@ -37,7 +37,7 @@ saveanim<-function(nomanim,fps,duree,larg,haut,nom){
                               duration=duree,width=larg,
                               height=haut))
 }
-apigg<-"AIzaSyAuoQhkoXWcbrHcR0xJDKORiubJeJN9f-I"
+
 nuancier_5_jaune_cramoisi<-c("#FFCC00","#EF7D00","#E30613","#AE0F0A","#500800")
 nuancier_5_vert_jaune_rouge<-c("#26A43E","#AFCA44","#FCC216","#EF871F","#E33321")
 nuancier_4_jaune_rouge<-c("#FFCC00","#FAB001","#EC6708","#AE0F0A")
