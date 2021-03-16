@@ -24,9 +24,9 @@ sortunjpeg<-function(x,y,z,titre){
   dev.off()
 }
 sortunsvg<-function(x,y,z,titre){
-  devoutsvg::svgout(filename = paste0(titre,".svg"), width=y, height = z)
+  svglite::svglite(file=paste0(titre,".svg"),width=y,height = z,bg="white",standalone = T)
   x
-  invisible(dev.off())
+  dev.off()
 }
 copycol<-function(x){
   write.table(x,"clipboard-13000",row.names = F,sep=";")
