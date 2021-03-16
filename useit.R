@@ -25,7 +25,7 @@ sortunjpeg<-function(x,y,z,titre){
 }
 sortunsvg<-function(x,y,z,titre){
   svglite::svglite(file=paste0(titre,".svg"),width=y,height = z,bg="white",standalone = T)
-  x
+  plot(x)
   dev.off()
 }
 copycol<-function(x){
