@@ -28,6 +28,12 @@ sortunsvg<-function(x,y,z,titre){
   plot(x)
   dev.off()
 }
+
+sortunsvg2<-function(x,y,z,titre){
+  devoutsvg::svgout(filename = paste0(titre,".svg"), width=y, height = z)
+  x
+  invisible(dev.off())
+}
 copycol<-function(x){
   write.table(x,"clipboard-13000",row.names = F,sep=";")
 }
