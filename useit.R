@@ -3,7 +3,6 @@ Packages <- c("tidyverse", "readr", "readxl", "sf",
               "data.table","datapasta","devtools","forcats",
               "geofacet","gghighlight","janitor","hexbin",
               "rmapshaper","scales","svglite","extrafont","slider")
-library(devout)
 extrafont::loadfonts()
 #font_import()
 lapply(Packages, library, character.only = TRUE)
