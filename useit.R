@@ -27,8 +27,7 @@ sortunsvg<-function(x,y,z,titre){
   plot(x)
   dev.off()
 }
-Virg<-function(x){
-  gsub(".",",",as.character(x))}
+Virg<-function(x){ as.character( gsub("\\.",",",as.character(x)))}
 sortunsvg2<-function(x,y,z,titre){
   devoutsvg::svgout(filename = paste0(titre,".svg"), width=y, height = z)
   x
