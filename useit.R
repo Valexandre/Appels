@@ -48,6 +48,8 @@ nuancier_5_vert_jaune_rouge<-c("#26A43E","#AFCA44","#FCC216","#EF871F","#E33321"
 nuancier_4_jaune_rouge<-c("#FFCC00","#FAB001","#EC6708","#AE0F0A")
 nuancier_4_bleuclair_fonce<-c("#82D0F6","#6FCBF4","#009BDE","#005F89")
 nuancier_6_rose_cramoisi<-c("#FAD3E6","#F19FC5","#EC6083","#E60146","#8A1003","#4E0800")
+nuancier_10_bleu<-c("#E5EFF3","#CCDFE7","#B2CFDB","#99BFCF","#7FAFC4","#669FB8","#4C8FAC","#337FA0","#196F94","#005F89")
+
 GrayGrad<-c("#E1E4DD", "#D5D6D0", "#C5C6C0", "#BDBFBA", "#ACAEAB", "#9EA09F", "#8D8F8E", "#7E807F", "#686A69", "#5E605F", "#4F4F4F", "#404040", "#292929", "#212121", "#1F1F1F")
 YellowGrad<-c("#FACD10", "#EEBE06","#E1B401", "#D3A605", "#C99F19", "#A07820", "#9A7421", "#886D2A", "#7A632D", "#65562F", "#4B432C", "#32311F", "#1E1D18", "#1B1A18", "#1C1C1C")
 OrangeGrad<-c("#FDD492", "#FEC059", "#FEB334", "#FFA521", "#EC961F", "#DF8A1D", "#CA7A17", "#A26316", "#875017", "#674518", "#453418", "#352515", "#292315", "#1E1913", "#1A1A1A")
@@ -62,3 +64,4 @@ TurquoiseGrad<-c("#D1E2DC", "#C3D8DB", "#B8D2D3", "#AACCCB", "#98C6C4", "#77AFAC
 GreenGrassGrad<-c("#BEE1CB", "#B1DCC0", "#9DD3AF", "#8BC7A1", "#75BB97", "#5DB481", "#54976C", "#55986F", "#436950", "#506B58", "#3A5044", "#384A3E", "#2D3D32", "#2E332C", "#1D1D1D")
 RiverGreenGrad<-c("#C8DC85", "#BED46F", "#A7CA4C", "#A7C74A", "#96B859", "#92B35A", "#819C57", "#70894F", "#58643E", "#54623E", "#47503B", "#444D3A", "#2B3029", "#2C2D27", "#1F1F1F")
 Rainbow<-c("#F8E8CF", "#F7C904", "#FD991D", "#F34A37", "#BC0C21", "#92254E", "#553973", "#3B3275", "#0043BA", "#08699E", "#4E9293", "#62B07E", "#A3C54A")
+
