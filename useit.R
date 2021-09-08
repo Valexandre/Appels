@@ -17,6 +17,9 @@ dep<-function(){
 paris<-function(){
   Paris<-st_read("https://raw.githubusercontent.com/Valexandre/france-geojson/master/arrondissements_off.geojson")
 }
+arr<-function(){
+Arr<-sf::st_read("https://github.com/Valexandre/france-geojson/raw/master/arrondissements-millesimes0.geojson")
+  }
 sortunjpeg<-function(x,y,z,titre){
   jpeg(filename = paste0(titre,".jpg"), width=y, height = z, quality=100, units = "px",type="cairo")
   plot(x)
