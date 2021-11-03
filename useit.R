@@ -52,6 +52,7 @@ nuancier_4_jaune_rouge<-c("#FFCC00","#FAB001","#EC6708","#AE0F0A")
 nuancier_4_bleuclair_fonce<-c("#82D0F6","#6FCBF4","#009BDE","#005F89")
 nuancier_6_rose_cramoisi<-c("#FAD3E6","#F19FC5","#EC6083","#E60146","#8A1003","#4E0800")
 nuancier_10_bleu<-c("#E5EFF3","#CCDFE7","#B2CFDB","#99BFCF","#7FAFC4","#669FB8","#4C8FAC","#337FA0","#196F94","#005F89")
+nuancier_6_jaune_orange<-c("#fdefef","#fac27e","#f59e53","#ee7f2f","#ee5b22","#e93a1c")
 
 GrayGrad<-c("#E1E4DD", "#D5D6D0", "#C5C6C0", "#BDBFBA", "#ACAEAB", "#9EA09F", "#8D8F8E", "#7E807F", "#686A69", "#5E605F", "#4F4F4F", "#404040", "#292929", "#212121", "#1F1F1F")
 YellowGrad<-c("#FACD10", "#EEBE06","#E1B401", "#D3A605", "#C99F19", "#A07820", "#9A7421", "#886D2A", "#7A632D", "#65562F", "#4B432C", "#32311F", "#1E1D18", "#1B1A18", "#1C1C1C")
